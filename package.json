@@ -1,0 +1,27 @@
+{
+  "name": "err-handler",
+  "version": "0.0.0",
+  "description": "Avoid if(err)return bla bla bla",
+  "main": "err-handler.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/_mocha './test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/node-err-handler.git"
+  },
+  "keywords": [
+    "err",
+    "handler"
+  ],
+  "author": "Joseph Spencer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/node-err-handler/issues"
+  },
+  "homepage": "https://github.com/jsdevel/node-err-handler",
+  "devDependencies": {
+    "sinon": "~1.9.0",
+    "mocha": "~1.17.1"
+  }
+}
