@@ -3,9 +3,7 @@
 module.exports = errHandler;
 
 function errHandler(handler, cb){
-  return function(){
-    var err = arguments[0];
-
+  return function(err){
     if (err && !handler(err)) {
       return;
     }
