@@ -1,6 +1,6 @@
 {
   "name": "err-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Avoid if(err)return bla bla bla",
   "main": "err-handler.js",
   "scripts": {
