@@ -67,8 +67,8 @@ THE SOFTWARE.
 [npm-url]: https://npmjs.org/package/err-handler
 [npm-image]: http://img.shields.io/npm/v/err-handler.svg
 
-[travis-url]: https://travis-ci.org/kogosoftwarellc/node-err-handler
-[travis-image]: http://img.shields.io/travis/kogosoftwarellc/node-err-handler.svg
+[travis-url]: https://travis-ci.org/jsdevel/node-err-handler
+[travis-image]: http://img.shields.io/travis/jsdevel/node-err-handler.svg
 
-[coveralls-url]: https://coveralls.io/r/kogosoftwarellc/node-err-handler
-[coveralls-image]: http://img.shields.io/coveralls/kogosoftwarellc/node-err-handler/master.svg
+[coveralls-url]: https://coveralls.io/r/jsdevel/node-err-handler
+[coveralls-image]: http://img.shields.io/coveralls/jsdevel/node-err-handler/master.svg
