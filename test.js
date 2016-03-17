@@ -33,4 +33,13 @@ describe('err-handler', function(){
       sinon.assert.calledWith(callback, null, 5);
     });
   });
+
+  describe('when the callback throws an error', function() {
+    it('should pass the thrown error to the handler', function() {
+      var handler = sinon.stub();
+      var callback = sinon.stub().throws(6);
+      errHandler(handler, callback)(null, 5);
+      sinon.assert.calledWith(handler, 6);
+    });
+  });
 });

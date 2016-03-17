@@ -8,6 +8,10 @@ function errHandler(handler, cb){
       return;
     }
 
-    cb.apply(null, [].slice.call(arguments));
+    try {
+      cb.apply(null, [].slice.call(arguments));
+    } catch (e) {
+      handler(e);
+    }
   };
 }
